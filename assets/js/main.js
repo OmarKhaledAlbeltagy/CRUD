@@ -101,7 +101,7 @@ function display(){
         content += `<tr>
                     <td>`+i+`</td>
                     <td>`+arr[i].websiteName+`</td>
-                    <td><a href="`+arr[i].WebsiteUrl+`" target="_blank">`+arr[i].WebsiteUrl+`</a></td>
+                    <td><a href="`+arr[i].WebsiteUrl+`" target="_blank" class="text-white fw-fw-bolder fs-6 ">`+arr[i].WebsiteUrl+`</a></td>
                     <td><a  href=`+arr[i].WebsiteUrl+` target="_blank" class="btn btn-primary">Visit</a></td>
                     <td><button onClick="deleteBookmark(`+i+`)" class="btn btn-danger">Delete</button></td>
                     </tr>`
